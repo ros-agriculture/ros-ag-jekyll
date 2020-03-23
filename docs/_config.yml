@@ -1,3 +1,29 @@
-title: "ROS Agriculture"
+
+# Setup
+title:               ROS Agriculture
+tagline:             open source community
+description:         building robots to help farmers
+#url:                 http://yoururl.com
+#baseurl:             ''
+#paginate:            5
+
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
-#remote_theme: https://github.com/tomjoht/documentation-theme-jekyll
+#remote_theme: "tomjoht/documentation-theme-jekyll"
+
+plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jemoji
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
+
+# Build settings
+destination: _site
+#permalink: /:year/:title/
+#markdown: kramdown
+#highlighter: rouge

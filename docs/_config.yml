@@ -1,4 +1,2 @@
 title: "ROS Agriculture"
-theme: just-the-docs
-color_scheme: "dark"
-search_enabled: false
+remote_theme: https://github.com/tomjoht/documentation-theme-jekyll

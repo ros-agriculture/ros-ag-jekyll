@@ -1,0 +1,16 @@
+image: ruby:2.5
+
+pages:
+  script:
+  - gem install jekyll
+  #- gem install minima
+  - gem install jekyll-theme-basically-basic -v 1.4.1
+  - gem install tzinfo -v 1.2.2
+  - gem install tzinfo-data
+  - bundle install
+  - jekyll build --trace -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

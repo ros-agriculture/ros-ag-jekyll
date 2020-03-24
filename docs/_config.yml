@@ -6,16 +6,17 @@ description:         building robots to help farmers
 #baseurl:             ''
 #paginate:            5
 
-remote_theme: marella/jekyll-theme-documentation
+## Documentation theme
+#remote_theme: marella/jekyll-theme-documentation
+#hide_toc: [Hide table of contents for current page]
+#nav:
+#  - Getting started:
+#    - How to contribute: Getting_started/getting_started
+#    - ROS: Getting_started/ROS
+#  - Lawn Tractor:
+#    - Simulation: "Lawn Tractor"
 
-hide_toc: [Hide table of contents for current page]
-
-nav:
-  - Getting started:
-    - How to contribute: Getting_started/getting_started
-    - ROS: Getting_started/ROS
-  - Lawn Tractor:
-    - Simulation: "Lawn Tractor"
+remote_theme: andstor/jekyll-theme-paper
 
 plugins:
 #   - jekyll-sitemap

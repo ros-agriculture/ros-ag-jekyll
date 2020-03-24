@@ -10,7 +10,6 @@ description:         building robots to help farmers
 remote_theme: marella/jekyll-theme-documentation
 
 plugins:
-#   - jekyll-paginate
 #   - jekyll-sitemap
 #   - jekyll-gist
 #   - jemoji

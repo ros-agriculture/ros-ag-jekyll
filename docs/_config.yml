@@ -7,8 +7,7 @@ description:         building robots to help farmers
 #baseurl:             ''
 #paginate:            5
 
-remote_theme: "mmistakes/minimal-mistakes@4.19.1"
-#remote_theme: "tomjoht/documentation-theme-jekyll"
+remote_theme: marella/jekyll-theme-documentation
 
 plugins:
 #   - jekyll-paginate
